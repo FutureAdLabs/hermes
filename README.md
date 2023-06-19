@@ -1,3 +1,7 @@
+
+![image](https://github.com/FutureAdLabs/hermes/assets/38694870/f7c1dd00-e412-47a5-bd36-1214670b05d3)
+
+
 # Hermes
 
 Hermes is Utopia's main logging utility. It handles local environments by logging to standard output or AWS CloudWatch Logs for our deployed environments.
