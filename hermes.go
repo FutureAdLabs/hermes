@@ -58,6 +58,9 @@ func (cw *CloudWatchWriter) Write(p []byte) (n int, err error) {
 func Init(svcName string) {
   env := os.Getenv("ENV")
 
+  zerolog.SetGlobalLevel(zerolog.InfoLevel)
+
+
 	if env == "dev" {
 		logger = zerolog.New(os.Stdout).With().Timestamp().Logger()
 	} else {
