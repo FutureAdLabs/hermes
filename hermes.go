@@ -93,7 +93,6 @@ func Init(svcName string) {
 			} else {
 				panic(err)
 			}
-			panic(err)
 		}
 
 		writer := &CloudWatchWriter{
